@@ -15,7 +15,7 @@ on:
       - "tools/scripts/**"
       - "tools/yscope-dev-utils"
   push:
-    branches: ["main"]
+    branches: ["main", "ci/multiarch-image-build"]
     paths: *monitored_paths
     tags: ["spider-huntsman-v*"]
   workflow_dispatch:
